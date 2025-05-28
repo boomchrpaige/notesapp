@@ -91,6 +91,8 @@ export default function App() {
 
   return (
     <Authenticator>
+      <Navbar/>
+
       {({ signOut }) => (
         <Flex
           className="App"
